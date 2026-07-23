@@ -15,7 +15,7 @@ def top_ten(subreddit):
 
     If the subreddit is invalid, prints None.
     """
-    url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
+    url = "https://old.reddit.com/r/{}/hot.json".format(subreddit)
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
